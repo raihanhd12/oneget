@@ -1,0 +1,193 @@
+
+.main-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 120px 150px 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-banner:after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.main-banner .icon-container {
+    position: absolute;
+    left: 40px;
+}
+
+.main-banner .sparkling-icon {
+    width: 84.814px;
+    height: 102.462px;
+    transform: rotate(22.5deg);
+}
+
+.main-banner h2 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.main-banner .title-border {
+    max-width: 801px;
+    max-height: 21.316px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: auto;
+}
+
+.main-banner .black-font {
+    color: rgba(21, 20, 20, 0.9);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.9%; /* 77.948px */
+}
+
+.main-banner .color-font {
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.9%;
+}
+
+.content {
+    padding: 216px 0px 100px 0px;
+    background: var(--Neutral, #F9F8FD);
+    justify-content: center;
+}
+
+.content .step {
+    padding: 44px 66px 44px 66px;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    max-width: 1143px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 1px 3px 30px 0px rgba(62, 19, 77, 0.12);
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.content .step-first h4 {
+    color: var(--Primary, #656eea);
+}
+
+.content .step-second h4 {
+    color: var(--Second-B, #3cc7f4);
+}
+
+.content .step-third h4 {
+    color: var(--Second-A, #ffa12e);
+}
+
+.number {
+    position: absolute;
+    top: -55px;
+    left: 20%;
+    width: 125px;
+}
+
+.number-right {
+    position: absolute;
+    top: -55px;
+    right: 22%;
+    width: 125px;
+}
+
+.content p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.9%; /* 30.78px */
+    letter-spacing: 0.6px;
+}
+
+.second-banner {
+    margin-top: 130px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 60vh; /* Mengatur tinggi minimum agar konten selalu berada di tengah */
+    background: var(
+        --Background,
+        linear-gradient(
+            216deg,
+            rgba(101, 110, 234, 0.15) 34.86%,
+            rgba(60, 199, 244, 0.15) 69.5%
+        )
+    );
+}
+
+.second-banner h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132.4%;
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .step-second .row {
+        flex-direction: column-reverse; /* Mengubah urutan kolom saat layar < 768px */
+    }
+}
+
+.second-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Untuk mengatur konten di tengah secara horizontal */
+    text-align: center; /* Untuk mengatur teks di tengah */
+}
+
+.button a {
+    padding: 15px 30px !important;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background: linear-gradient(262deg, #656eea 0.64%, #3cc7f4 89.63%);
+    border-radius: 8px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: #3cc7f4;
+    color: #4b8ef1 !important;
+}
+

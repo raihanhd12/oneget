@@ -1,0 +1,438 @@
+p{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153.9%;
+}
+
+.title{
+    max-width: 1137px;
+    margin: auto;
+}
+
+.desc{
+    max-width: 762px;
+    text-align: center;
+    margin: auto;
+}
+
+.color-font{
+    color: var(--Second-B, #3CC7F4);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.4%;
+    letter-spacing: 0.48px;
+}
+
+.black-font{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.4%;
+    letter-spacing: 0.48px;
+}
+
+
+.main-banner {
+    padding: 183px 20px 471px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-banner .black-font {
+    color: rgba(21, 20, 20, 0.9);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.9%; /* 77.948px */
+}
+
+.main-banner .color-font {
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.9%;
+}
+
+.main-banner .btn-bg a{
+    border-radius: 8px;
+    padding: 18px 45px 18px 45px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 20;
+    background: var(--Brand, linear-gradient(267deg, #656EEA 0%, #3CC7F4 99.52%));
+}
+
+.main-banner .btn-bg a:hover{
+    border-radius: 8px;
+    padding: 18px 45px 18px 45px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--Brand, linear-gradient(267deg, #3CC7F4 99.52%,  #656EEA 0%));
+}
+
+.feature{
+    position: relative;
+    max-width: 100%;
+    margin-top: 353px;
+    padding: 0px 50px 0px 50px;
+}
+
+.feature .image-banner{
+    position: absolute;
+    margin: 0 auto;
+    width: 1100px;
+    padding: 10px;
+    top: -770px;
+    left: 50%; /* Pindahkan elemen ke tengah horizontal */
+    transform: translateX(-50%); /* Geser elemen ke tengah horizontal */
+    text-align: center;
+}
+
+.image-banner .sparkling-icon {
+    max-width: 119px;
+    max-height: 105px;
+    position: absolute;
+    top: -70px;
+    right: -70px;
+}
+
+.image-banner .arrow {
+    max-width: 150px; 
+    position: absolute;
+    left: -60px;
+    bottom: -70px;
+    
+}
+
+.image-banner .cover{
+    max-width: 100%;
+    left: auto;
+    right: auto;
+}
+
+.feature .caption h2{
+    background: var(--Brand, linear-gradient(267deg, #656EEA 0%, #3CC7F4 99.52%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 121.4%;
+    letter-spacing: 0.48px;
+}
+
+.feature .caption{
+    margin-top: 750px;
+    justify-content: center;
+    margin: auto;
+}
+
+.feature .sosmed{
+    max-width: 1068px;
+    margin: 0 auto;
+}
+
+.sosmed .icon-social{
+    width: 151px;
+    height: 145px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+}
+
+.sosmed .icon-social img{
+    width: 98px;
+}
+
+.sosmed .con-count{
+    max-width: 256.494px;
+    min-width: 180px;
+    height: 144.689px;
+    padding: 19.6px 22.5px 19.6px 22.5px;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+}
+
+.con-count .count-icon img{
+    width: 27px;
+    margin-right: 10px;
+}
+
+.con-count .count-icon h6{
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.con-count h4{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.con-count .count-desc img{
+    width: 13.963px;
+}
+
+.con-count .count-desc h5{
+    color: #15B972;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130.4%;
+    margin-right: 5px;
+}
+
+.con-count .count-desc h4{
+    color: #FF3D40;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130.4%;
+    margin-right: 5px;
+}
+
+.con-count .count-desc h6{
+    color: rgba(0, 0, 0, 0.49);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.4%;
+}
+
+.con-count .up img{
+    width: 28.186px;
+}
+
+.con-count .up{
+    max-width: 35px;
+}
+
+.usage-2 .color-font{
+    color: var(--Second-A, #FFA12E);
+}
+
+.usage-3 .color-font{
+    color: var(--Second-A, #656EEA);
+}
+
+.content-tables-no-margin{
+    padding: 0px;
+}
+
+.row-usage{
+    justify-content: space-between;
+}
+
+.col{
+    max-width: 580px;
+}
+
+.image-usage img{
+    width: 100%;
+}
+
+.content-tables{
+    padding-top: 120px;
+}
+
+.position-relative p{
+    margin-right: 50px;
+}
+
+.icon-arrow img{
+    max-width: 143px;
+    position: absolute;
+    top: -40px;
+    left: 52%;
+}
+
+.icon-arrow-2 img{
+    transform: rotate(250deg);
+    max-width: 143px;
+    position: absolute;
+    top: -40px;
+    left: 40%;
+}
+
+@media (max-width: 1200px) {
+    .usage-image{
+        margin-left: auto; 
+        margin-right: auto; 
+        display: block;
+    }
+    .icon-arrow img{
+        top: 0px;
+    }
+    
+    .icon-arrow-2 img{
+        top: 0px;
+    }
+
+    .feature .image-banner{
+        position: absolute;
+        margin: 0 auto;
+        width: 80%;
+        padding: 10px;
+        top: -770px;
+        left: 50%; /* Pindahkan elemen ke tengah horizontal */
+        transform: translateX(-50%); /* Geser elemen ke tengah horizontal */
+        text-align: center;
+    }
+
+    .position-relative p{
+        margin-right: 0px;
+    }
+   
+}
+
+@media (max-width: 1140px) {
+    .feature .image-banner{
+        top: -650px;
+    }
+
+    .feature{
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 990px) {
+    .col{
+        order: 2;
+    }
+    .row-usage{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .feature .image-banner{
+        top: -550px;
+    }
+
+    .feature{
+        margin-top: 150px;
+    }
+
+    .content-tables {
+        text-align: center;
+        margin: 0 auto 30px auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .sparkling-icon{
+        display: none;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .feature .image-banner{
+        top: -400px;
+    }
+
+    .feature{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    .con-count{
+        max-width: 100%;
+    }
+
+    .feature .image-banner{
+        top: -300px;
+    }
+
+    .icon-social{
+        display: none;
+    }
+    
+    .main-banner{
+        padding-bottom: 350px;
+    }
+
+    .icon-arrow img, .icon-arrow-2 img{
+        display: none;
+    }
+
+    .content-tables{
+        padding-top: 100px;
+    }
+
+    .main-banner .black-font, .main-banner .color-font,
+    .content-tables .black-font, .content-tables .color-font,
+    .content-tables-no-margin .black-font, .content-tables-no-margin .color-font{
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .icon-social{
+        display: none;
+    }
+    
+    .feature .image-banner{
+        top: -200px;
+    }
+    
+    .main-banner{
+        padding-bottom: 300px;
+    }
+
+    .main-banner .black-font, .main-banner .color-font,
+    .content-tables .black-font, .content-tables .color-font,
+    .content-tables-no-margin .black-font, .content-tables-no-margin .color-font{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    .content-tables{
+        padding-top: 50px;
+    }
+}
+

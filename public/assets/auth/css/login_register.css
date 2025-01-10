@@ -1,0 +1,462 @@
+.__login-paragraph {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 153.9%;
+    letter-spacing: 0.42px;
+    margin-top: 6px;
+}
+
+.__carrousel-h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.9%;
+    background: linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.__carrousel-h1-slide3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.9%;
+    background: linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.__carousel-paragraph {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.9%;
+    background: linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+}
+.__carousel-paragraph-slide3 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.9%;
+    background: linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+}
+
+.__login-heading {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.9%;
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.__icon-google {
+    background: conic-gradient(
+            from -45deg,
+            #ea4335 110deg,
+            #4285f4 90deg 180deg,
+            #34a853 180deg 270deg,
+            #fbbc05 270deg
+        )
+        73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.col-md-6 {
+    align-items: center;
+}
+
+.__button-carrousel {
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+}
+
+.__login-google {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #fff;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.45px;
+}
+
+/* Center-align the text and style the divider */
+
+.__divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.__centered-text {
+    text-align: center;
+}
+
+.__text-with-email {
+    color: rgba(0, 0, 0, 0.28);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.42px;
+    background-color: #f3f5f6;
+}
+
+.__span-google {
+    background-color: #ffffff;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.28);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.42px;
+}
+.__text-email-sent-gmail {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 153.9%;
+    letter-spacing: 0.45px;
+}
+
+.__div-google {
+    height: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 41px;
+}
+.__div-google2 {
+    height: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.__login-google {
+    margin-top: 51px;
+}
+.input-group {
+    position: relative;
+    width: 100%; /* Atur lebar input dan tombol */
+}
+
+.input-group-text {
+    position: absolute;
+    right: 25px; /* Geser ikon ke kiri sejauh 25px dari tepi kanan */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    border-top-left-radius: 0 !important; /* Hapus radius sudut kiri atas */
+    border-bottom-left-radius: 0 !important; /* Hapus radius sudut kiri bawah */
+}
+
+.__button-google:hover {
+    color: var(--bs-btn-hover-color);
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+}
+
+.__button-google {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.45px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.__paragraph-google {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+}
+
+.__paragraph-firstname {
+    padding-left: 28px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+}
+.__paragraph-lastname {
+    margin-right: 28px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid,
+.row {
+    height: 100%;
+}
+
+.col-md-6 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.__col-right {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .__login-all {
+        width: 65%;
+    }
+}
+@media (max-width: 768px) {
+    .__login-all {
+        margin-top: 30px;
+    }
+    .__col-right {
+        margin-top: 2%;
+    }
+    .left {
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .flex-column-mobile {
+        flex-direction: column;
+    }
+    .__login-all {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 280px) {
+    .__login-all {
+        margin-top: 30px;
+    }
+}
+
+.__input-email {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.39px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: 100%;
+    height: 35%;
+    padding: 20px;
+}
+.__input-name {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.39px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.__paragraph-password {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+}
+
+.__input-password {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.39px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: 100%;
+    height: 35%;
+    padding: 20px;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    padding-right: 60px;
+}
+
+.__button-submit {
+    padding-left: 28px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+}
+
+.__button-login {
+    border-radius: 8px;
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%;
+    letter-spacing: 0.45px;
+    width: 100%;
+}
+
+.__button-login:hover {
+    color: #ffffff; /* Warna teks saat dihover menjadi putih */
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+}
+
+.__paragraph-account {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 153.9%;
+    letter-spacing: 0.48px;
+    margin-top: 32px;
+}
+.__paragraph-account2 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 153.9%;
+    letter-spacing: 0.48px;
+    margin-top: 32px;
+}
+
+.__to-register {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.9%;
+    letter-spacing: 0.48px;
+}
+.carousel-indicator-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators {
+    display: flex;
+    gap: 10px; /* Adjust the spacing between indicators */
+}
+
+.__custom-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+    opacity: 0.21;
+    cursor: pointer;
+    transition: all 0.3s; /* Add a transition for smooth shape change */
+}
+
+.__custom-indicator.rect {
+    border-radius: 3px; /* Rectangle shape */
+    width: 24px;
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+    opacity: 1;
+}
+
+.__custom-indicator.active {
+    background: var(
+        --Brand,
+        linear-gradient(267deg, #656eea 0%, #3cc7f4 99.52%)
+    );
+}

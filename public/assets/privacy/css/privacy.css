@@ -1,0 +1,85 @@
+.contactus {
+    background: linear-gradient(
+        259deg,
+        rgba(101, 110, 234, 0.15) 22.44%,
+        rgba(60, 199, 244, 0.15) 83.67%
+    );
+    background-color: white;
+    padding: 80px 50px 80px 50px;
+    justify-content: center;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.78);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.5%;
+}
+
+h1{
+    color: rgba(21, 20, 20, 0.90);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 124.9%;
+}
+
+h2{
+    margin-bottom: 18px;
+    color: rgba(21, 20, 20, 0.90);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.9%;
+}
+
+a{
+    font-size: 14px;
+    color: #94a4b8;
+}
+
+a:hover{
+    color: black;
+}
+
+.section-title{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.body{
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#back-to-top {
+    display: none; /* Sembunyikan tombol secara default */
+    position: fixed; /* Tetapkan posisi tombol */
+    bottom: 20px;
+    right: 20px;
+    border-radius: 8px;
+    background: linear-gradient(262deg, #656EEA 0.64%, #3CC7F4 89.63%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-link{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
+@media (max-width: 760px) {
+    .links{
+      display: none;
+    }
+  }

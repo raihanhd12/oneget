@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    transition: background 0.3s ease;
+    padding-bottom: 15px;
+    padding-top: 59px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.navbar-nav{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.9%;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 70px;
+}
+
+.logo img{
+    max-width: 146px;
+}
